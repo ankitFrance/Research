@@ -1,15 +1,12 @@
-<div class="products-container">
-    <h2 class="section-title">🛍️ Our Products</h2>
-    <div class="row">
-        <div class="col-md-4 col-lg-3 mb-4" *ngFor="let product of products">
-            <div class="card product-card">
-                <img [src]="product.image" class="card-img-top" [alt]="product.name">
-                <div class="card-body">
-                    <h5 class="card-title">{{ product.name }}</h5>
-                    <p class="card-text">{{ product.description }}</p>
-                </div>
-            </div>
+<div class="row">
+    <!-- Looping from 1.jpeg to 40.jpeg -->
+    <div class="col-md-3 mb-3" *ngFor="let i of [].constructor(40); let index = index">
+      <div class="card">
+        <img [src]="'/images/' + (index + 1) + '.jpeg'" class="card-img-top" alt="Image {{ index + 1 }}">
+        <div class="card-body text-center">
+          <p class="card-text">Image {{ index + 1 }}</p>
         </div>
+      </div>
     </div>
-</div>
-
+  </div>
+  

@@ -5,108 +5,31 @@
 
 
 
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
+<div class="row">
+  <!-- Looping from 1.mp4 to 20.mp4 -->
+  <div class="col-sm-6" *ngFor="let i of [].constructor(20); let index = index">
+    <video width="360" height="240" controls>
+      <source [src]="'/videos/' + (index + 1) + '.mp4'" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
 
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="col-sm-6">
-        <div class="card">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zPEgHKgZW6s?si=x1QQBBz_piwIPzRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-      </div>
-
-
-
-
-
-
-      
-
-      
+    
 
   </div>
+
+  <div class="row">
+    <!-- Looping from 1.jpeg to 40.jpeg -->
+    <div class="col-md-3 mb-3" *ngFor="let i of [].constructor(40); let index = index">
+      <div class="card">
+        <img [src]="'/images/' + (index + 1) + '.jpeg'" class="card-img-top" alt="Image {{ index + 1 }}">
+        <div class="card-body text-center">
+          <p class="card-text">Image {{ index + 1 }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
