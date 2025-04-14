@@ -1,0 +1,11 @@
+<div class="row">
+    <!-- Looping from 1.jpeg to 40.jpeg -->
+    <div class="col-md-3 mb-3" *ngFor="let i of [].constructor(40); let index = index">
+      <div class="card">
+        <img [src]="'assets/images/' + (index + 1) + '.jpeg'" class="card-img-top" alt="Image {{ index + 1 }}">
+        <div class="card-body text-center">
+          <p class="card-text">Image {{ index + 1 }}</p>
+        </div>
+      </div>
+    </div>
+</div>
